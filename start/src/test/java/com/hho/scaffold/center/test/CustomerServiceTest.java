@@ -2,9 +2,9 @@ package com.hho.scaffold.center.test;
 
 import com.alibaba.cola.dto.Response;
 import com.hho.scaffold.center.api.CustomerServiceI;
-import com.hho.scaffold.center.dto.CustomerAddCmd;
-import com.hho.scaffold.center.dto.data.CustomerDTO;
-import com.hho.scaffold.center.dto.data.ErrorCode;
+import com.hho.scaffold.center.dto.customer.CustomerAddCmd;
+import com.hho.scaffold.center.dto.customer.data.CustomerDTO;
+import com.hho.scaffold.center.dto.customer.data.ErrorCode;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

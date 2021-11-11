@@ -1,4 +1,4 @@
-package com.hho.scaffold.center.dto.data;
+package com.hho.scaffold.center.dto.customer.data;
 
 import lombok.Data;
 

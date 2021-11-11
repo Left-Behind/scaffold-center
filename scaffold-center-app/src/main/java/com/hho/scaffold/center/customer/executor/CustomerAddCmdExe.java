@@ -3,8 +3,8 @@ package com.hho.scaffold.center.customer.executor;
 
 import com.alibaba.cola.dto.Response;
 import com.alibaba.cola.exception.BizException;
-import com.hho.scaffold.center.dto.CustomerAddCmd;
-import com.hho.scaffold.center.dto.data.ErrorCode;
+import com.hho.scaffold.center.dto.customer.CustomerAddCmd;
+import com.hho.scaffold.center.dto.customer.data.ErrorCode;
 import org.springframework.stereotype.Component;
 
 

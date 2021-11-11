@@ -1,4 +1,4 @@
-package com.hho.scaffold.center.dto.data;
+package com.hho.scaffold.center.dto.customer.data;
 
 public enum ErrorCode{
     B_CUSTOMER_companyNameConflict("B_CUSTOMER_companyNameConflict", "客户公司名冲突");

@@ -3,9 +3,9 @@ package com.hho.scaffold.center.web;
 import com.alibaba.cola.dto.MultiResponse;
 import com.alibaba.cola.dto.Response;
 import com.hho.scaffold.center.api.CustomerServiceI;
-import com.hho.scaffold.center.dto.CustomerAddCmd;
-import com.hho.scaffold.center.dto.CustomerListByNameQry;
-import com.hho.scaffold.center.dto.data.CustomerDTO;
+import com.hho.scaffold.center.dto.customer.CustomerAddCmd;
+import com.hho.scaffold.center.dto.customer.CustomerListByNameQry;
+import com.hho.scaffold.center.dto.customer.data.CustomerDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

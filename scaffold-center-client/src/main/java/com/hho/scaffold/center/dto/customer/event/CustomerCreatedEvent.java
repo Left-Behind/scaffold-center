@@ -1,6 +1,6 @@
-package com.hho.scaffold.center.dto.event;
+package com.hho.scaffold.center.dto.customer.event;
 
-import static com.hho.scaffold.center.dto.event.DomainEventConstant.CUSTOMER_CREATED_TOPIC;
+import static com.hho.scaffold.center.dto.customer.event.DomainEventConstant.CUSTOMER_CREATED_TOPIC;
 
 /**
  * CustomerCreatedEvent

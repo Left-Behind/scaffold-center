@@ -1,4 +1,4 @@
-package com.hho.scaffold.center.dto.event;
+package com.hho.scaffold.center.dto.customer.event;
 
 /**
  * @author niexiaolong

@@ -1,4 +1,4 @@
-package com.hho.scaffold.center.dto;
+package com.hho.scaffold.center.dto.customer;
 
 import com.alibaba.cola.dto.Query;
 import lombok.Data;

@@ -1,8 +1,8 @@
 package com.hho.scaffold.center.customer.executor.query;
 
 import com.alibaba.cola.dto.MultiResponse;
-import com.hho.scaffold.center.dto.CustomerListByNameQry;
-import com.hho.scaffold.center.dto.data.CustomerDTO;
+import com.hho.scaffold.center.dto.customer.CustomerListByNameQry;
+import com.hho.scaffold.center.dto.customer.data.CustomerDTO;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Component;

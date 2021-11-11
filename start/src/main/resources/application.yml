@@ -1,0 +1,31 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: local
+  application:
+    name: start
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hho-item-center?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-file-size: 512MB
+      max-request-size: 512MB
+mybatis-plus:
+  configuration:
+    ## log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    cache-enabled: false
+  global-config:
+    configuration:
+      map-underscore-to-camel-case: true
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      table-underline: true
+      db-type: mysql
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath:mapper/*.xml
